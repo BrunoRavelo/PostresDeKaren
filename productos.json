@@ -4,7 +4,7 @@
     "nombre": "Galletas Navideñas",
     "descripcion": "Deliciosas galletas de mantequilla con corte navid...",
     "precio": 95,
-    "imagen": "images/navidad.jpeg",
+    "imagen": "images/navidad.jpg",
     "categoria": "Galletas"
   },
   {
@@ -12,7 +12,7 @@
     "nombre": "Mini Donas",
     "descripcion": "Deliciosas mini Donas con glaseado",
     "precio": 70,
-    "imagen": "images/donas.jpeg",
+    "imagen": "images/donas.jpg",
     "categoria": "Bites"
   },
   {
@@ -20,7 +20,7 @@
     "nombre": "Cubiletes de Queso",
     "descripcion": "Cubiletes de queso crema",
     "precio": 80,
-    "imagen": "images/cubilete.jpeg",
+    "imagen": "images/cubilete.jpg",
     "categoria": "Bites"
   },
   {
@@ -28,7 +28,7 @@
     "nombre": "Pie de Manzana",
     "descripcion": "Pie de manzana y canela",
     "precio": 100,
-    "imagen": "images/pie.jpeg",
+    "imagen": "images/pie.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -36,7 +36,7 @@
     "nombre": "Galletas de Pan de Muerto",
     "descripcion": "Galletas con tradicional sabor a pan de muerto",
     "precio": 30,
-    "imagen": "images/morido.jpeg",
+    "imagen": "images/morido.jpg",
     "categoria": "Galletas"
   },
   {
@@ -44,7 +44,7 @@
     "nombre": "Mini Donas",
     "descripcion": "Deliciosas mini donas con glaseado y chispas",
     "precio": 76,
-    "imagen": "images/chispas.jpeg",
+    "imagen": "images/chispas.jpg",
     "categoria": "Bites"
   },
   {
@@ -52,7 +52,7 @@
     "nombre": "Brownie Chispas",
     "descripcion": "Brownie de chocolate con chispas de chocolate",
     "precio": 300,
-    "imagen": "images/brownie.jpeg",
+    "imagen": "images/brownie.jpg",
     "categoria": "Brownie"
   },
   {
@@ -60,7 +60,7 @@
     "nombre": "Panqué de Nata",
     "descripcion": "Delicioso panqué de nata natural",
     "precio": 75,
-    "imagen": "images/panque3.jpeg",
+    "imagen": "images/panque3.jpg",
     "categoria": "Panqués"
   },
   {
@@ -68,7 +68,7 @@
     "nombre": "Rol de Dulce de Leche",
     "descripcion": "Delicioso rol de dulce de leche y nuez",
     "precio": 45,
-    "imagen": "images/rolnuez.jpeg",
+    "imagen": "images/rolnuez.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -76,7 +76,7 @@
     "nombre": "Rol de Nutella",
     "descripcion": "Delicioso rol de Nutella y betún de queso crema",
     "precio": 45,
-    "imagen": "images/rol.jpeg",
+    "imagen": "images/rol.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -84,7 +84,7 @@
     "nombre": "Pastel de Red Velvet",
     "descripcion": "Pastel individual de red velvet con betún de queso...",
     "precio": 450,
-    "imagen": "images/pastel1.jpeg",
+    "imagen": "images/pastel1.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -92,7 +92,7 @@
     "nombre": "Pastel Moka tres Leches",
     "descripcion": "Pastel moka con tres leches y betún de queso crema",
     "precio": 400,
-    "imagen": "images/pastel3.jpeg",
+    "imagen": "images/pastel3.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -100,7 +100,7 @@
     "nombre": "Cheesecake Chocolate",
     "descripcion": "Delicioso cheesecake con topping de brownie y choc...",
     "precio": 55,
-    "imagen": "images/cheese.jpeg",
+    "imagen": "images/cheese.jpg",
     "categoria": "Brownie"
   },
   {
@@ -108,7 +108,7 @@
     "nombre": "Cheesecake",
     "descripcion": "Delicioso cheesecake con topping de dulce de leche...",
     "precio": 55,
-    "imagen": "images/cheese.jpeg",
+    "imagen": "images/cheese.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -116,7 +116,7 @@
     "nombre": "Cheesecake Brownie",
     "descripcion": "Delicioso cheesecake con topping de brownie",
     "precio": 53,
-    "imagen": "images/cheese3.jpeg",
+    "imagen": "images/cheese3.jpg",
     "categoria": "Brownie"
   },
   {
@@ -124,7 +124,7 @@
     "nombre": "Cheesecake Coco",
     "descripcion": "Delicioso cheesecake con topping de chocolate y co...",
     "precio": 60,
-    "imagen": "images/cheese2.jpeg",
+    "imagen": "images/cheese2.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -132,7 +132,7 @@
     "nombre": "Cajita Mixta",
     "descripcion": "Mezcla de pastelitos mixta",
     "precio": 89,
-    "imagen": "images/monio.jpeg",
+    "imagen": "images/monio.jpg",
     "categoria": "Bites"
   },
   {
@@ -140,7 +140,7 @@
     "nombre": "Alfajores",
     "descripcion": "Deliciosos alfajores rellenos de dulce de leche y ...",
     "precio": 100,
-    "imagen": "images/alfajor.jpeg",
+    "imagen": "images/alfajor.jpg",
     "categoria": "Galletas"
   },
   {
@@ -148,7 +148,7 @@
     "nombre": "Birthday Cake",
     "descripcion": "Galleta tipo pastel con temática de cumpleaños",
     "precio": 500,
-    "imagen": "images/pastel4.jpeg",
+    "imagen": "images/pastel4.jpg",
     "categoria": "Galletas"
   },
   {
@@ -156,7 +156,7 @@
     "nombre": "Huevos de Pascua",
     "descripcion": "Delicioso brownie cubierto de chocolate",
     "precio": 200,
-    "imagen": "images/chocolate.jpeg",
+    "imagen": "images/chocolate.jpg",
     "categoria": "Brownie"
   },
   {
@@ -164,7 +164,7 @@
     "nombre": "Galletas",
     "descripcion": "Riquísimas galletas de vainilla con chispas de cho...",
     "precio": 47,
-    "imagen": "images/galleta.jpeg",
+    "imagen": "images/galleta.jpg",
     "categoria": "Galletas"
   },
   {
@@ -172,7 +172,7 @@
     "nombre": "Tarta",
     "descripcion": "Tarta de crema pastelera y durazno",
     "precio": 35,
-    "imagen": "images/tarta.jpeg",
+    "imagen": "images/tarta.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -180,7 +180,7 @@
     "nombre": "Tarta de Manzana",
     "descripcion": "Deliciosa tarta de manzana con crumble",
     "precio": 230,
-    "imagen": "images/pie.jpeg",
+    "imagen": "images/pie.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -188,7 +188,7 @@
     "nombre": "Panqué de Coco",
     "descripcion": "Riquísimo panqué keto de coco",
     "precio": 45,
-    "imagen": "images/panqque.jpeg",
+    "imagen": "images/panqque.jpg",
     "categoria": "Panqués"
   },
   {
@@ -196,7 +196,7 @@
     "nombre": "Arroz con Leche",
     "descripcion": "Cremoso arroz con leche y canela",
     "precio": 38,
-    "imagen": "images/arroz.jpeg",
+    "imagen": "images/arroz.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -204,7 +204,7 @@
     "nombre": "Mini Donas Canela",
     "descripcion": "Mini donas naturales de canela",
     "precio": 40,
-    "imagen": "images/donas.jpeg",
+    "imagen": "images/donas.jpg",
     "categoria": "Otros Postres"
   },
   {
@@ -212,7 +212,7 @@
     "nombre": "Panqué Zanahoria",
     "descripcion": "Esponjoso panqué de zanahoria con nuez y canela",
     "precio": 70,
-    "imagen": "images/panque2.jpeg",
+    "imagen": "images/panque2.jpg",
     "categoria": "Panqués"
   },
   {
@@ -220,7 +220,7 @@
     "nombre": "Cuadritos de Limón",
     "descripcion": "Cuadritos de panqué de limón con glaseado",
     "precio": 80,
-    "imagen": "images/panlimon.jpeg",
+    "imagen": "images/panlimon.jpg",
     "categoria": "Bites"
   },
   {
@@ -228,7 +228,7 @@
     "nombre": "Brownie Milkyway",
     "descripcion": "Brownie de chocolate con topping de milkyway",
     "precio": 70,
-    "imagen": "images/milky.jpeg",
+    "imagen": "images/milky.jpg",
     "categoria": "Brownie"
   },
   {
@@ -236,7 +236,7 @@
     "nombre": "Trenza Nutella",
     "descripcion": "Deliciosa trenza de Nutella",
     "precio": 150,
-    "imagen": "images/trenza.jpeg",
+    "imagen": "images/trenza.jpg",
     "categoria": "Otros Postres"
   }
 ]
