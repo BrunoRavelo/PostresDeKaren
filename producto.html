@@ -4,22 +4,95 @@
   <title>Detalles del Producto</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+    crossorigin="anonymous"
+  >
   <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      background-color: #ffedee;
+      height: 100vh;
+    }
+    header {
+      background-color: #FFFFFF;
+    }
+    .btn-pink {
+      background-color: #ffccd5;
+      color: black;
+      font-size: 14px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .btn-pink:hover {
+      background-color: #ff3385;
+      color: white;
+    }
+    .product-details {
+      margin-top: 30px;
+      display: flex;
+      align-items: center;
+    }
+    .product-img {
+      max-width: 90%;
+      border-radius: 16px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      margin-right: 20px;
+    }
+    .product-description {
+      line-height: 1.6;
+      color: var(--bs-body-color);
+    }
+    .price-tag {
+      color: black;
+      font-size: 1.8rem;
+      font-weight: bold;
+    }
+    .text-container {
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #ffedee;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <!-- Puedes reutilizar tu header aquí -->
+    <div class="container-fluid">
+      <div class="row py-3 border-bottom">
+        <div class="col-sm-4 col-lg-2 text-center">
+          <a href="index.html">
+            <img src="images/logo.jpg" alt="logo" width="70">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <ul
+            class="navbar-nav list-unstyled d-flex flex-row gap-3 gap-lg-5 justify-content-center flex-wrap align-items-center mb-0 fw-bold text-uppercase text-dark"
+          >
+            <li class="nav-item active">
+              <a href="index.html" class="nav-link">Inicio</a>
+            </li>
+            <li class="nav-item active">
+              <a href="about.html" class="nav-link">Acerca de Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </header>
 
-  <main class="container py-5">
-    <div id="productDetails" class="row">
-      <!-- Aquí se mostrarán los detalles del producto -->
+  <main class="container product-details">
+    <div id="productDetails" class="row align-items-center">
+      <!-- Detalles del producto cargados dinámicamente -->
     </div>
   </main>
 
-  <footer>
-    <!-- Puedes reutilizar tu footer aquí -->
+  <footer class="py-4 mt-5">
+    <div class="container text-center">
+      <p>© 2024 Tienda. Todos los derechos reservados.</p>
+    </div>
   </footer>
 
   <script>
@@ -37,14 +110,13 @@
           const productDetails = document.getElementById('productDetails');
 
           productDetails.innerHTML = `
-            <div class="col-md-6">
-              <img src="${producto.imagen}" class="img-fluid" alt="${producto.nombre}">
+            <div class="col-md-4">
+              <img src="${producto.imagen}" class="product-img" alt="${producto.nombre}">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-8 text-container">
               <h1>${producto.nombre}</h1>
-              <p class="text-muted">${producto.descripcion}</p>
-              <p class="text-dark fw-bold">$${producto.precio}</p>
-              <button class="btn btn-pink">Agregar al Carrito</button>
+              <p class="product-description">${producto.descripcion}</p>
+              <p class="price-tag">$${producto.precio}</p>
             </div>
           `;
         } else {
